@@ -2,6 +2,7 @@ package com.kavinschool.calc;
 
 public class Calc {
 	private double x, y;
+	private String comanyName;
 
 	Calc(double a, double b) {
 		x = a;
