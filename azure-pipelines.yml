@@ -21,3 +21,10 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
   displayName: Maven Package
+
+- task: PublishCodeCoverageResults@1
+  inputs:
+    codeCoverageTool: 'Cobertura'
+    summaryFileLocation: '$(System.DefaultWorkingDirectory)/**/**/site/cobertura/coverage.xml'
+    pathToSources: '$(System.DefaultWorkingDirectory)/**/**/src/main/java/'
+    reportDirectory: '$(System.DefaultWorkingDirectory)/**/**/site/cobertura'
