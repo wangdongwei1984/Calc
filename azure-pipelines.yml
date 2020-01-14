@@ -13,6 +13,7 @@ steps:
     scannerMode: 'CLI'
     configMode: 'manual'
     cliProjectKey: 'dwangCalcTest'
+    cliSources: 'src/main/java'
 
 - task: Maven@3
   inputs:
