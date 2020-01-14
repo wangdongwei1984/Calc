@@ -20,9 +20,9 @@
         <sonar.coverage.exclusions></sonar.coverage.exclusions>
         <sonar.links.homepage>https://sonarqube-azureappservice6526.azurewebsites.net/dashboard?id=SimpleCalculator
         </sonar.links.homepage>
-        <sonar.host.url>https://sonarqube-azureappservice6526.azurewebsites.net</sonar.host.url>
-        <sonar.projectKey>SimpleCalculator</sonar.projectKey>
-        <sonar.projectName>SimpleCalculator</sonar.projectName>
+        <sonar.host.url>https://sonarqube-azureappservicec7dc.azurewebsites.net</sonar.host.url>
+        <sonar.projectKey>dwangCalcTest</sonar.projectKey>
+        <sonar.projectName>dwangCalcTest</sonar.projectName>
         <!--        <sonar.exclusions>src/main/java</sonar.exclusions>-->
         <!--        <sonar.test.inclusions>src/test/java/com/kavinschool/calc</sonar.test.inclusions>-->
     </properties>
