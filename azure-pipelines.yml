@@ -10,8 +10,9 @@ steps:
 - task: SonarQubePrepare@4
   inputs:
     SonarQube: 'dwangSonarQubeServiceConnection'
-    scannerMode: 'CLI'
-    configMode: 'file'
+    scannerMode: 'Other'
+    #configMode: 'file'
+    
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
